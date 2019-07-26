@@ -10,7 +10,6 @@ fi
 export name=$1
 file=$2
 file2=$3
-steps=/shared/pipelines/steps
 
 # create output directories
 source $steps/results_dir.sh fastqc trimgalore tophat featurecounts
